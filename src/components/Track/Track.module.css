@@ -1,0 +1,70 @@
+.trackContainer {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 15px;
+    width: 96%;
+    position: relative;
+}
+
+.h3 {
+    font-family: "Poppins";
+    font-size: 1.4rem;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.h4 {
+    font-family: "Poppins";
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 1.8rem;
+    position: absolute;
+    right: 5px;
+    bottom: 2rem;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1500px) {
+    .h3 {
+        font-size: 1rem;
+    }
+    .h4 {
+        font-size: 0.75rem;
+    }
+    .button {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .h3 {
+        font-size: 1.4rem;
+    }
+    .h4 {
+        font-size: 1.1rem;
+    }
+    .button {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .h3 {
+        font-size: 1.1rem;
+    }
+    .h4 {
+        font-size: 0.8rem;
+    }
+    .button {
+        font-size: 1.5rem;
+    }
+}
